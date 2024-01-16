@@ -1,0 +1,466 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 73px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8.5%;
+}
+
+.section1 {
+  gap: 83px;
+  padding: 116px 8.5% 110px;
+  background: url(./Home_Page/Mobile_Images/Assets/Project_Paramour_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.section1_text_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.section1_text_cont > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: #fff;
+}
+
+.section1_text_cont > p {
+  font-size: 18px;
+  font-family: League Spartan;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 18px;
+  font-family: League Spartan;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #fff;
+  background: #1b1d23;
+}
+
+button:hover {
+  background-color: #60636d;
+}
+
+.portfolio_button {
+  width: 252px;
+  height: 72px;
+}
+
+.page_number_cont {
+  display: none;
+}
+
+.section2 {
+  gap: 68px;
+}
+
+.mob_line {
+  width: 65px;
+  height: 1px;
+  background: #c8ccd8;
+}
+
+.section2_text_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.section2_text_cont > h1 {
+  display: none;
+}
+
+.section2_text_cont > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1.714px;
+  color: #1b1d23;
+}
+
+.section2_text_cont > p {
+  font-size: 18px;
+  font-family: League Spartan;
+  font-weight: 500;
+  line-height: 24px;
+  color: #60636d;
+}
+
+.building_image {
+  display: none;
+}
+
+.section3 {
+  gap: 23px;
+  padding: 180px 8.5%;
+  width: 100%;
+  margin: 40px 0 0;
+  background: url(./Home_Page/Mobile_Images/Assets/Small_Team_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.section3 > h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1.714px;
+  color: #fff;
+}
+
+.section3 > a > .about_us_button {
+  width: 187px;
+  height: 72px;
+}
+
+.section4 {
+  gap: 43px;
+  width: 100%;
+}
+
+.section4 > .featured > h4 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1.714px;
+  color: #1b1d23;
+}
+
+.featured > a > .see_all_button1 {
+  display: none;
+}
+
+.project_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project_cont_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 240px;
+  padding: 0 7.7% 23px;
+}
+
+.project_cont_item > h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff;
+}
+
+.project_cont_item > a > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.75;
+  color: #fff;
+}
+
+.number {
+  display: none;
+}
+
+.project_del_sol {
+  background: url(./Home_Page/Mobile_Images/Assets/Project_Del_Sol_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.w228B_tower {
+  background: url(./Home_Page/Mobile_Images/Assets/228B_Tower_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.le_prototype {
+  background: url(./Home_Page/Mobile_Images/Assets/La_Prototype_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.project_cont > a > .see_all_button2 {
+  width: 100%;
+  height: 72px;
+}
+
+@media (width >= 768px) {
+  body {
+    background: url(../Home_Page/Tablet_Images/Assets/Home_Path.png) no-repeat;
+    background-position: top 0 left 38px;
+  }
+
+  main {
+    gap: 89px;
+    padding: 0 12.626%;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .section1 {
+    gap: 41px;
+    padding: 186px 10.1% 179px;
+    background: url(./Home_Page/Tablet_Images/Assets/Projcet_Paramour_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .section1_text_cont > h1 {
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+
+  .section2 {
+    gap: 0;
+  }
+
+  .mob_line {
+    display: none;
+  }
+
+  .section2_text_cont {
+    position: relative;
+    gap: 43px;
+    padding: 159px 0 0;
+  }
+
+  .section2_text_cont > h1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 151px;
+    font-weight: 700;
+    line-height: 200px;
+    letter-spacing: -3px;
+    color: #eeeff4;
+  }
+
+  .section2_text_cont > h2 {
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  .section3 {
+    gap: 15px;
+    padding: 167px 5%;
+    margin: 144px 0 111px;
+    background: url(./Home_Page/Tablet_Images/Assets/Small_Team_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .section3 > h3 {
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  .section4 {
+    gap: 86px;
+  }
+
+  .featured {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section4 > .featured > h4 {
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+
+  .featured > a > .see_all_button1 {
+    display: flex;
+    width: 169px;
+    height: 72px;
+  }
+
+  .project_cont_item {
+    position: relative;
+    padding: 0 7% 39px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 29px;
+  }
+
+  .project_del_sol {
+    background: url(./Home_Page/Tablet_Images/Assets/Project_Del_Sol_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .w228B_tower {
+    background: url(./Home_Page/Tablet_Images/Assets/228B_Tower_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .le_prototype {
+    background: url(./Home_Page/Tablet_Images/Assets/La_Prototype_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_cont > a {
+    display: none;
+  }
+}
+
+@media (width >= 1440px) {
+  main {
+    gap: 200px;
+    padding: 0;
+  }
+
+  .section1 {
+    position: relative;
+    padding: 186px 11.4% 179px;
+    width: 100%;
+    background: url(./Home_Page/Desktop_Images/Assets/Project_Paramour_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .page_number_cont {
+    display: block;
+    position: absolute;
+    display: flex;
+    width: 320px;
+    left: -80px;
+    bottom: 0;
+  }
+
+  .page_number_cont_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: League Spartan;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    color: #7d828f;
+    width: 25%;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    background: #fff;
+  }
+
+  .page_number_cont > .firth {
+    color: white;
+    background: #1b1d23;
+  }
+
+  .second:hover,
+  .third:hover,
+  .fourth:hover {
+    background: #eeeff4;
+  }
+
+  .section2 {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding-left: 16%;
+  }
+
+  .section2_text_cont {
+    position: unset;
+    padding: 69px 0 0;
+    width: 445px;
+  }
+
+  .section2_text_cont > h1 {
+    font-size: 250px;
+    line-height: 200px;
+    letter-spacing: -5px;
+    top: -100px;
+    left: 0;
+  }
+
+  .building_image {
+    display: block;
+  }
+
+  .section3 {
+    gap: 27px;
+    margin: 0;
+    padding-left: 16%;
+    background: url(./Home_Page/Desktop_Images/Assets/Small_Team_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .section4 {
+    gap: 65px;
+  }
+
+  .project_cont {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .project_cont_item {
+    width: 33%;
+    height: 560px;
+    padding: 0 40px 39px;
+  }
+
+  .number {
+    top: 45px;
+    right: 0;
+  }
+
+  .project_del_sol {
+    background: url(./Home_Page/Desktop_Images/Assets/Project_Del_Sol_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .w228B_tower {
+    background: url(./Home_Page/Desktop_Images/Assets/228B_Tower_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .le_prototype {
+    background: url(./Home_Page/Desktop_Images/Assets/La_Prototype_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+}

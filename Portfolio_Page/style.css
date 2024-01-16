@@ -1,0 +1,282 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.project_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 8.5%;
+  width: 100%;
+}
+
+.project_cont_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 240px;
+  padding: 0 7.7% 23px;
+}
+
+.project_cont_item > h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff;
+}
+
+.project_cont_item > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.75;
+  color: #fff;
+}
+
+button {
+  width: 252px;
+  height: 72px;
+}
+
+.project_Seraph_Station {
+  background: url(./Mobile_Images/Assets/Seraph_Station_Image.png) no-repeat;
+  background-size: cover;
+}
+
+.project_Eebox_Building {
+  background: url(./Mobile_Images/Assets/Eebox_Building_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+.project_Federal_Tower {
+  background: url(./Mobile_Images/Assets/Federal_II_Tower_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+.project_del_sol {
+  background: url(../Home_Page/Mobile_Images/Assets/Project_Del_Sol_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.le_prototype {
+  background: url(../Home_Page/Mobile_Images/Assets/La_Prototype_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.w228B_tower {
+  background: url(../Home_Page/Mobile_Images/Assets/228B_Tower_Image.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.project_Grand_Edelweiss_Hotel {
+  background: url(./Mobile_Images/Assets/Grand_Edelweiss_Hotel_Image.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+.project_Netcry_Tower {
+  background: url(./Mobile_Images/Assets/Netcry_Tower_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+.project_Hypers {
+  background: url(./Mobile_Images/Assets/Hypers_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+.project_SXIV_Tower {
+  background: url(./Mobile_Images/Assets/SXIV_Tower_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+.project_Trinity_Bank_Tower {
+  background: url(./Mobile_Images/Assets/Trinity_\ Bank_Tower_Image.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+.Project_Paramour {
+  background: url(./Mobile_Images/Assets/Project_Paramour_Image.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media (width >= 768px) {
+  body {
+    background: url(./Tablet_Images/Portfolio_Path.png) no-repeat;
+    background-position: top 0 left 38px;
+  }
+
+  main {
+    margin: 0;
+    padding: 0 12.626%;
+  }
+
+  .project_cont {
+    padding: 0;
+  }
+
+  .project_cont_item {
+    padding: 0 7% 39px;
+  }
+
+  .project_Seraph_Station {
+    background: url(./Tablet_Images/Assets/Seraph_Station_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Eebox_Building {
+    background: url(./Tablet_Images/Assets/Eebox_Building_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Federal_Tower {
+    background: url(./Tablet_Images/Assets/Federal_II_Tower_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_del_sol {
+    background: url(../Home_Page/Tablet_Images/Assets/Project_Del_Sol_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .le_prototype {
+    background: url(../Home_Page/Tablet_Images/Assets/La_Prototype_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .w228B_tower {
+    background: url(../Home_Page/Tablet_Images/Assets/228B_Tower_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_Grand_Edelweiss_Hotel {
+    background: url(./Tablet_Images/Assets/Grand_Edelweiss_Hotel_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_Netcry_Tower {
+    background: url(./Tablet_Images/Assets/Netcry_Tower_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Hypers {
+    background: url(./Tablet_Images/Assets/Hypers_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_SXIV_Tower {
+    background: url(./Tablet_Images/Assets/SXIV_Tower_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Trinity_Bank_Tower {
+    background: url(./Tablet_Images/Assets/Trinity_\ Bank_Tower_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .Project_Paramour {
+    background: url(./Tablet_Images/Assets/Project_Paramour_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (width >= 1440px) {
+  main {
+    padding: 0;
+  }
+
+  .project_cont {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .project_cont_item {
+    width: 31.5%;
+    height: 560px;
+    padding: 0 40px 39px;
+  }
+
+  .project_Seraph_Station {
+    background: url(./Desktop_Images/Assets/Seraph_Station_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Eebox_Building {
+    background: url(./Desktop_Images/Assets/Eebox_Building_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Federal_Tower {
+    background: url(./Desktop_Images/Assets/Federal_II_Tower_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_del_sol {
+    background: url(../Home_Page/Desktop_Images/Assets/Project_Del_Sol_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .le_prototype {
+    background: url(../Home_Page/Desktop_Images/Assets/La_Prototype_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .w228B_tower {
+    background: url(../Home_Page/Desktop_Images/Assets/228B_Tower_Image.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_Grand_Edelweiss_Hotel {
+    padding: 0 0 39px 40px;
+    background: url(./Desktop_Images/Assets/Grand_Edelweiss_Hotel_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .project_Grand_Edelweiss_Hotel > h4 {
+    width: 101%;
+  }
+  .project_Netcry_Tower {
+    background: url(./Desktop_Images/Assets/Netcry_Tower_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Hypers {
+    background: url(./Desktop_Images/Assets/Hypers_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_SXIV_Tower {
+    background: url(./Desktop_Images/Assets/SXIV_Tower_Image.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .project_Trinity_Bank_Tower {
+    background: url(./Desktop_Images/Assets/Trinity_\ Bank_Tower_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .Project_Paramour {
+    background: url(./Desktop_Images/Assets/Project_Paramour_Image.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+}

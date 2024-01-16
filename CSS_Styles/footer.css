@@ -1,0 +1,96 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+  padding: 93px 8.5% 48px;
+  margin: 132px 0 0;
+  background: #eeeff4;
+}
+
+footer > .arch {  /* a თეგის სტილი*/
+  position: absolute;
+  top: -16%;
+  width: 120px;
+  height: 120px;
+}
+
+footer > .arch_logo {
+  position: absolute;
+  top: -16%;
+  width: 120px;
+  height: 120px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+li {
+  font-size: 18px;
+  font-family: League Spartan;
+  font-weight: 700;
+  line-height: 25px;
+  list-style: none;
+  cursor: pointer;
+  transition: .4s;
+  color: #7d828f;
+}
+
+li:hover {
+  color: #1B1D23;
+}
+
+@media (width >= 768px) {
+  footer {
+    position: unset;
+    flex-direction: row;
+    padding: unset;
+    margin-top: 200px;
+    width: 79.7%;
+    gap: 40px;
+  }
+
+  footer > .arch { /* a თეგის სტილი*/
+    position: unset;
+  }
+
+  footer > .arch_logo {
+    position: unset;
+  }
+
+  ul {
+    flex-direction: row;
+    width: 53%;
+    gap: 19%;
+  }
+
+  .portfolio_button_tag {
+    width: 252px;
+    height: 72px;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media (width >= 1440px) {
+  footer {
+    position: relative;
+    gap: 85px;
+    width: 88.6%;
+    padding: 0;
+  }
+
+  footer > .arch_logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .portfolio_button_tag {
+    right: -13%;
+  }
+}
